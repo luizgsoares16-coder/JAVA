@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gerenciador para armazenar tarefas"> <!--descrição do site-->
+    <meta name="keyword" content="tarefas, lista de tarefas, gerenciador, ToDo"> <!--palavras chave pra encontrá-lo no google mais facilmente-->
+    <meta name="author" content="Gabriel Ramos"> <!--Autor-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Gerenciador de tarefas</title>
+</head>
+<body>
+    <main class="container">
+
+        <h1>Gerenciador de Tarefas</h1>
+        
+        <div class="tarefas">
+            <form id="task-form">
+                <input id="description" type="text" placeholder="Digite a tarefa" required>
+                <input type="text" placeholder="Descreva a tarefa">
+                
+                <button type="submit">Adicionar tarefa</button>
+            </form>
+            
+            <ul id="task-list"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
